@@ -1,0 +1,22 @@
+{
+  "name": "com.gamesoft.tools",
+  "displayName": "Game Soft Tools",
+  "version": "1.0.0",
+  "description": "Support game package",
+  "category": "GameSoft",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VTeselkin/tools.git"
+  },
+  "keywords": [
+    "Unity",
+    "UPM"
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.textmeshpro": "3.0.6",
+    "com.gamesoft.zenject": "9.2.0"
+  },
+  "author": "VTeselkin",
+  "license": "UNLICENSED"
+}
