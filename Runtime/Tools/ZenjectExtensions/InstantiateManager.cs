@@ -110,7 +110,7 @@ namespace GameSoft.Tools.ZenjectExtensions
         {
             if (_instance == null)
                 throw new Exception("InstantiateManager is not initialized! " +
-                                    "Add ToolInstaller.cs in to ProjectInstaller object!");
+                                    "Add ToolInstaller in to Prefab Installer Zenject!");
         }
     }
 }
