@@ -1,3 +1,4 @@
+using GameSoft.Tools;
 using GameSoft.Tools.ZenjectExtensions;
 using Zenject;
 
@@ -8,6 +9,7 @@ namespace GameSoft
         public override void InstallBindings()
         {
             Container.BindInterfacesAndSelfTo<InstantiateManager>().AsSingle();
+            Container.BindInterfacesAndSelfTo<UnityMainThreadDispatcher>().AsSingle().NonLazy();
         }
     }
 }
